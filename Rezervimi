@@ -29,6 +29,9 @@
 			color: darkgrey;
 			font-weight: normal;
 		}
+		mark {
+  background-color: black;
+  color: white;
 
 
 
@@ -41,7 +44,7 @@
 	<table border="0" align="center">
 	<tr>
 		<td align="center">
-			<font face="latha" size="6" color="#ffffff"> Make a reservation</font>
+			<font face="latha" size="6" color="#ffffff"> <mark> Make a reservation </mark> </font>
 		</td>
 	</tr>
 <tr>
@@ -74,7 +77,7 @@
 <input type="radio" name="type"> Work meeting
 <input type="radio" name="type"> Friends
 
-
+<button> <span> <abbr title="Click to submit">Submit </abbr></span></button>
 
 		
 	</div>
