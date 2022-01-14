@@ -1,6 +1,6 @@
 <html>
 <head>
-<script>
+<script type="text/javascript">
 function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
